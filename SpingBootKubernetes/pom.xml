@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>SpingBootKubernetes</artifactId>
+    <artifactId>springboot-k8s-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spingbootkubernetes</name>
     <description>SpingBootKubernetes</description>
@@ -42,6 +42,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>springboot-k8s-demo</finalName>
     </build>
 
 </project>

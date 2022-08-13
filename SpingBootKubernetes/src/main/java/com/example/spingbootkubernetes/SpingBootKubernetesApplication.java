@@ -12,7 +12,7 @@ public class SpingBootKubernetesApplication {
     public String home(){
         return " Congratulations you successfully deployed your Application into Kubernetes------!!";
     }
-
+//Test1
     public static void main(String[] args) {
         SpringApplication.run(SpingBootKubernetesApplication.class, args);
     }
